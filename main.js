@@ -39,7 +39,7 @@ function parOuImpar (numero){
 console.log(parOuImpar(100))
 */
 
-/* EXEMPLO 5
+/* EXEMPLO 5: FUNÇÃO ANÔNIMA
 let numero = 10
 const button = document.querySelector("button")
 button.addEventListener("click", function (){
@@ -49,7 +49,7 @@ button.addEventListener("click", function (){
 console.log (numero)
 */
 
-/* EXEMPLO 6
+/* EXEMPLO 6: arrow function
 let numero = 10 
 const button = document.querySelector("button")
 button.addEventListener("click", () => {
@@ -64,9 +64,7 @@ let somar = (valor1, valor2) => valor1 + valor2
 console.log (somar(30, 7))
 */
 
-/*
 function mensagemBoasVindas(nome, cargo){
     alert(`Seja bem-vindo (a)! ${cargo} ${nome}`)
 }
-mensagemBoasVindas("Caps", "Louco") 
-*/
+mensagemBoasVindas("Caps", "Louco")
